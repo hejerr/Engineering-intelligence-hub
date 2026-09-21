@@ -1,0 +1,15 @@
+langgraph>=0.2.0
+langchain-core>=0.3.0
+numpy>=1.26.0
+scikit-learn>=1.4.0
+python-dotenv>=1.0.0
+pytest>=8.0.0
+
+# Optional, only needed if you switch providers away from the defaults:
+# sentence-transformers>=3.0.0   # EMBEDDING_PROVIDER=huggingface
+# google-genai>=1.0.0            # LLM_PROVIDER=gemini  (free tier, recommended)
+# anthropic>=0.34.0              # LLM_PROVIDER=anthropic
+# openai>=1.40.0                 # LLM_PROVIDER=openai / EMBEDDING_PROVIDER=openai
+
+# Optional, only needed for the Streamlit UI (app.py):
+# streamlit>=1.37.0
